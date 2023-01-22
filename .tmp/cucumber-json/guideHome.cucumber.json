@@ -1,0 +1,87 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Guide Home",
+    "line": 1,
+    "id": "guide-home",
+    "tags": [],
+    "uri": "guideHome.feature",
+    "elements": [
+      {
+        "id": "guide-home;verify-home-page-ui",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Verify Home page UI",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to Guide portal",
+            "result": {
+              "status": "passed",
+              "duration": 5298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I click on Don't have a plan?",
+            "result": {
+              "status": "passed",
+              "duration": 1916000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Text"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Select your state"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Back"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ENGLISH"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Coverage year"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sign up for an Ambetter Plan"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see following text",
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

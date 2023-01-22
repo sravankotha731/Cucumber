@@ -1,0 +1,429 @@
+{
+  "AMBETTER_GENERIC_1": {
+    "lastName": "Carmona",
+    "externalId": "U90098271-01",
+    "issuserSubscriberId": "U90098271",
+    "dob": "07/09/1958",
+    "email": "ambettermsptestuser+piedad@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter"
+  },
+  "AMBETTER_GENERIC_2": {
+    "lastName": "Fogle",
+    "externalId": "U90018267-01",
+    "issuserSubscriberId": "U90018267",
+    "dob": "08/26/1979",
+    "email": "ambettermsptestuser+fogle@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter"
+  },
+  "AMBETTER_GENERIC_3": {
+    "testName": "AMBETTER_GENERIC_3",
+    "lastName": "Jenkins",
+    "externalId": "U90760613-01",
+    "issuserSubscriberId": "U90760613",
+    "dob": "10/10/1953",
+    "email": "ambettermsptestuser+jenkins@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter",
+    "paymentEndpoint": "Softheon"
+  },
+  "AMBETTER_GENERIC_4": {
+    "testName": "AMBETTER_GENERIC_4",
+    "lastName": "Yamamoto",
+    "externalId": "U92261865-01",
+    "issuserSubscriberId": "U92261865",
+    "dob": "06/09/1957",
+    "email": "ambettermsptestuser+joanne@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter",
+    "paymentEndpoint": "Softheon"
+  },
+  "AMBETTER_GENERIC_5": {
+    "testName": "AMBETTER_GENERIC_5",
+    "lastName": "Douglas",
+    "externalId": "U91634134-01",
+    "issuserSubscriberId": "U91634134",
+    "dob": "05/02/1984",
+    "email": "ambettermsptestuser+jason@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter",
+    "paymentEndpoint": "Softheon"
+  },
+  "AMBETTER_GENERIC_6": {
+    "testName": "AMBETTER_GENERIC_6",
+    "lastName": "Murphy",
+    "externalId": "U95405925-01",
+    "issuserSubscriberId": "U95405925",
+    "dob": "08/04/2009",
+    "email": "ambettermsptestuser+txvirtualwithminor@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter",
+    "paymentEndpoint": "Softheon"
+  },
+  "AMBETTER_EMBARK": {
+    "testName": "Embark member",
+    "lastName": "Hayes",
+    "externalId": "U70078524-01",
+    "issuserSubscriberId": "U70078524",
+    "dob": "8/17/1988",
+    "email": "ambettermsptestuser+embark10@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter",
+    "features": {
+      "payments": ["enrol-in-paperless-card"],
+      "landing": ["view-pcps-link"]
+    }
+  },
+  "AMBETTER_EMBARK_2": {
+    "testName": "AMBETTER_EMBARK_2",
+    "lastName": "Cleveland7207TDM",
+    "externalId": "U70085881-01",
+    "issuserSubscriberId": "U70085881",
+    "dob": "10/27/1982",
+    "email": "ambettermsptestuser+invoiceherbert@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter"
+  },
+  "AMBETTER_EMBARK_3": {
+    "testName": "AMBETTER_EMBARK_3",
+    "lastName": "Jast",
+    "externalId": "U70355676-01",
+    "issuserSubscriberId": "U70355676",
+    "dob": "12/06/1960",
+    "email": "ambettermsptestuser+embark20@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter",
+    "paymentEndpoint": "Embark"
+  },
+  "AMBETTER_EMBARK_4": {
+    "testName": "AMBETTER_EMBARK_4",
+    "lastName": "Davis",
+    "externalId": "U70386301-01",
+    "issuserSubscriberId": "U70386301",
+    "dob": "12/19/1960",
+    "email": "ambettermsptestuser+embarkeugene@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter",
+    "paymentEndpoint": "Embark"
+  },
+  "TEST_USER_AMBETTER_CLAIMS_ACCUM": {
+    "lastName": "Smith",
+    "externalId": "U92430221-01",
+    "dob": "11/17/1981",
+    "site": "Ambetter",
+    "features": ["claims", "accum", "autocomplete"],
+    "validdependent_1": {
+      "lastName": "Smith",
+      "externalId": "U92430221-02",
+      "dob": "11/19/2011"
+    },
+    "invaliddependent_1": {
+      "externalId": "U91111111-02"
+    },
+    "otherdata": {
+      "externalId": "U95103884-01"
+    }
+  },
+  "AMBETTER_FULL_SUBSIDY": {
+    "lastName": "Smith",
+    "externalId": "U95103884-01",
+    "dob": "06/01/1956"
+  },
+  "TEST_USER_AMBETTER_PRIOR_AUTH": {
+    "lastName": "Edmond",
+    "externalId": "U93024658-01",
+    "dob": "09/11/1997",
+    "site": "Ambetter",
+    "features": ["priorauth"],
+    "validdependent_1": {
+      "lastName": "Donna",
+      "externalId": "U93024658-02",
+      "dob": "09/11/1997"
+    },
+    "invaliddependent_1": {
+      "externalId": "U91111111-02"
+    }
+  },
+  "TEST_USER_HNCA_PRIOR_AUTH": {
+    "lastName": "Zoila",
+    "externalId": "U93923638-01",
+    "dob": "03/11/1959",
+    "site": "HNCA",
+    "features": ["priorauth"],
+    "validdependent_1": {
+      "lastName": "Blanca",
+      "externalId": "U93923638-02",
+      "dob": "U93923638-02"
+    },
+    "invaliddependent_1": {
+      "externalId": "U91111111-02"
+    }
+  },
+  "HNCA_GENERIC_1": {
+    "lastName": "Cho",
+    "externalId": "U92883904-01",
+    "issuserSubscriberId": "U92883904",
+    "dob": "06/30/1962",
+    "site": "HNCA",
+    "features": ["claims", "accum", "insurance"],
+    "validdependent_1": {
+      "lastName": "Cho",
+      "externalId": "U92883904-02",
+      "dob": "03/16/1997"
+    },
+    "invaliddependent_1": {
+      "externalId": "U91111111-02"
+    },
+    "otherdata": {
+      "externalId": "U93923638-02"
+    }
+  },
+  "HNCA_GENERIC_2": {
+    "lastName": "Chen",
+    "externalId": "U93489070-01",
+    "issuserSubscriberId": "U93489070",
+    "dob": "08/07/1978",
+    "site": "HNCA",
+    "features": ["claims", "accum", "insurance"],
+    "validdependent_1": {
+      "lastName": "Chen",
+      "externalId": "U93489070-02",
+      "dob": "07/20/2008"
+    },
+    "invaliddependent_1": {
+      "externalId": "U91111111-02"
+    },
+    "otherdata": {
+      "externalId": "U93923638-02"
+    }
+  },
+  "HNCA_GENERIC_3": {
+    "testName": "HNCA_GENERIC_3",
+    "lastName": "Rice",
+    "externalId": "U92144466-01",
+    "issuserSubscriberId": "U92144466",
+    "dob": "06/19/1979",
+    "site": "HNCA",
+    "paymentEndpoint": "Softheon",
+    "features": ["priorauth", "claims", "accum", "insurance"],
+    "validdependent_1": {
+      "lastName": "Rice",
+      "externalId": "U92144466-02",
+      "dob": "08/07/2011"
+    },
+    "invaliddependent_1": {
+      "externalId": "U91111111-02"
+    },
+    "otherdata": {
+      "externalId": "U93923638-02"
+    }
+  },
+  "HNCA_GENERIC_4": {
+    "testName": "HNCA_GENERIC_4",
+    "lastName": "Xie",
+    "externalId": "U91827834-01",
+    "issuserSubscriberId": "U91827834",
+    "dob": "07/31/1973",
+    "site": "HNCA",
+    "paymentEndpoint": "Softheon",
+    "features": ["priorauth", "claims", "accum", "insurance"],
+    "validdependent_1": {
+      "lastName": "Zhu ",
+      "externalId": "U91827834-02",
+      "dob": "04/02/1974"
+    },
+    "invaliddependent_1": {
+      "externalId": "U91827832-09"
+    },
+    "otherdata": {
+      "externalId": "U93923638-02"
+    }
+  },
+  "KS_DEPENDENTS": {
+    "testName": "KS Dependents 2022",
+    "firstName": "Mercedes",
+    "middleName": "M",
+    "lastName": "Chucuan",
+    "externalId": "U9947799301",
+    "email": "ambettermsptestuser+KSDependents2022@gmail.com",
+    "password": "Password1"
+  },
+  "WCNC_SUBSCRIBER": {
+    "testName": "WCNC Subscriber 2022",
+    "lastName": "Peterson",
+    "externalId": "U99456663-01",
+    "email": "ambettermsptestuser+kelvinpeterson@gmail.com",
+    "password": "Password1"
+  },
+  "FL_SUBSCRIBER": {
+    "testName": "FL Subscriber 2022",
+    "lastName": "Jackson",
+    "externalId": "U92405774-01",
+    "email": "ambettermsptestuser+smoke03@gmail.com",
+    "password": "Password1",
+    "features": {
+      "payments": ["make-a-payment-btn", "view-settings-button", "view-payment-settings-button", "download-invoice-button", "manage-wallet-container"],
+      "landing": ["view-pcps-link"],
+      "activityUsage": ["activity-page-title", "claims-tab", "my-spending-tab", "benefits-usage-tab", "authorizations-tab"]
+    }
+  },
+  "AZ_SUBSCRIBER": {
+    "testName": "AZ Subscriber 2022",
+    "lastName": "Smith",
+    "externalId": "U93950506-02",
+    "email": "ambettermsptestuser+Lowell@gmail.com",
+    "password": "Password1",
+    "used-in": "prompter.spec.js, onboarding.spec.js"
+  },
+  "REFERRAL_TRACKER": {
+    "testName": "Referral Tracker",
+    "lastName": "Etetest",
+    "externalId": "U95420880-01",
+    "email": "ambettermsptestuser+referraltracker@gmail.com",
+    "password": "Password1",
+    "features": {
+      "payments": ["make-a-payment-btn", "view-settings-button", "view-payment-settings-button", "download-invoice-button", "manage-wallet-container"],
+      "landing": ["view-pcps-link"],
+      "activityUsage": ["activity-page-title", "claims-tab", "my-spending-tab", "benefits-usage-tab", "referral-tracker-tab", "authorizations-tab"]
+    }
+  },
+  "CA_SUBSCRIBER": {
+    "testName": "CA Subscriber 2022",
+    "lastName": "Chou",
+    "externalId": "U92204514-01",
+    "email": "ambettermsptestuser+smoke04@gmail.com",
+    "password": "Password1"
+  },
+  "CORE_PCP_SELECT": {
+    "lastName": "Davis",
+    "externalId": "U92674051-01",
+    "dob": "01/28/1960",
+    "site": "Ambetter",
+    "planKey": "2022TNCO",
+    "features": ["pcp", "insurance"],
+    "location": {
+      "lat": "34.99992",
+      "lng": "-85.10663"
+    }
+  },
+  "VIRTUAL_PCP_SELECT": {
+    "testName": "TX Virtual 2022",
+    "lastName": "Anoulack",
+    "externalId": "U95357917-01",
+    "dob": "09/14/1967",
+    "email": "ambettermsptestuser+Jimmytdm@gmail.com",
+    "password": "Password1"
+  },
+  "VALUE_PCP_SELECT": {
+    "lastName": "Tannewitz",
+    "externalId": "U95360533-01",
+    "dob": "09/16/1976"
+  },
+  "VALUE_TX_PCP_SELECT": {
+    "lastName": "Romo - Sicairos",
+    "externalId": "U95363806-02",
+    "dob": "09/19/1981"
+  },
+  "SELECT_PCP_SELECT": {
+    "lastName": "Brisgel",
+    "externalId": "U95357442-01",
+    "dob": "09/15/1997"
+  },
+  "NOTIFICATION": {
+    "testName": "All Notifications",
+    "lastName": "Hankard",
+    "externalId": "U93603003-01",
+    "dob": "02/11/1962",
+    "email": "ambettermsptestuser+elizabethnotification@gmail.com",
+    "password": "Password1"
+  },
+  "VIRTUAL_SC_WITH_MINOR": {
+    "testName": "SC Virtual 2022",
+    "firstName": "Ulyssestdm",
+    "lastName": "Celestino",
+    "fullName": "Ulyssestdm Celestino",
+    "externalId": "U95406171-01",
+    "dob": "01/02/1997",
+    "email": "ambettermsptestuser+Ulyssestdm2022SC@gmail.com",
+    "password": "Password1",
+    "used-in": "doctorsPage.spec.js, digitalIdCard.specjs, digitalIdCardMobile.spec.js"
+  },
+  "VIRTUAL_TX_NO_MINOR": {
+    "testName": "TX Virtual 2022- No Minor",
+    "lastName": "Billtdm",
+    "externalId": "U95357857-01",
+    "dob": "09/14/1988",
+    "email": "ambettermsptestuser+txvirtual2@gmail.com",
+    "password": "Password1",
+    "used-in": "doctorsPage.spec.js"
+  },
+  "CORE_TX_DEPENDENT": {
+    "testName": "TX  CORE DEPENDENT",
+    "lastName": "Brown",
+    "externalId": "U93472378-03",
+    "dob": "04/14/2003",
+    "email": "ambettermsptestuser+Brown@gmail.com",
+    "password": "Password1",
+    "used-in": "doctorsPage.spec.js"
+  },
+  "SELECT_GA_WELLSTAR": {
+    "testName": "GA  SELECT WELLSTAR",
+    "lastName": "Ingram",
+    "externalId": "U95357133-01",
+    "dob": "09/15/1980",
+    "email": "ambettermsptestuser+grovertdm2022@gmail.com",
+    "password": "Password1",
+    "used-in": "doctorsPage.spec.js"
+  },
+  "VALUE_NV": {
+    "testName": "VALUE NV",
+    "lastName": "Tannewitz",
+    "externalId": "U95360533-01",
+    "dob": "09/16/1976",
+    "email": "ambettermsptestuser+ValueNV@gmail.com",
+    "password": "Password1",
+    "used-in": "doctorsPage.spec.js",
+    "med_group": "USHS"
+  },
+  "AMBETTER_GENERIC_7": {
+    "testName": "AMBETTER_GENERIC_7",
+    "lastName": "Bogan",
+    "externalId": "U70401244-01",
+    "issuserSubscriberId": "U70401244",
+    "dob": "12/04/1960",
+    "email": "ambettermsptestuser+arthur@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter"
+  },
+  "FLValue_2023": {
+    "testName": "FLValue_2023",
+    "lastName": "Hoovertdm",
+    "externalId": "U96044629-01",
+    "issuserSubscriberId": "U9604462901",
+    "dob": "10/26/1953",
+    "email": "ambettermsptestuser+2023flvalue@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter"
+  },
+  "TELADOC_VIRTUAL": {
+    "testName": "MSVirtual_2023",
+    "lastName": "Adamstdm",
+    "externalId": "U96043370-01",
+    "issuserSubscriberId": "U96043370",
+    "dob": "10/21/1965",
+    "email": "ambettermsptestuser+msvirtual@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter"
+  },
+  "BABYLON_VIRTUAL": {
+    "testName": "MOVirtual_2023",
+    "lastName": "Piercetdm",
+    "externalId": "U96043437-01",
+    "issuserSubscriberId": "U96043437",
+    "dob": "10/10/1961",
+    "email": "ambettermsptestuser+movirtual@gmail.com",
+    "password": "Password1",
+    "site": "Ambetter"
+  }
+}
